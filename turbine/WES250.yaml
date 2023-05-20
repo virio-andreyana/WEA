@@ -1,0 +1,19 @@
+# SPDX-FileCopyrightText: 2021 The Atlite Authors
+#
+# SPDX-License-Identifier: CC-BY-4.0
+
+# Turbine characteristic data
+name: WES250 250 kW
+# The manufacturer of this turbine
+manufacturer: WES
+# Link to the original datasheet of the turbine
+source: https://windenergysolutions.nl/wes/windturbine-wes-250/#toggle-id-3
+
+# Hub height in meters
+HUB_HEIGHT: 30
+# Power curve, specified as lists of velocities and powers, including
+# cut-in and cut-out speeds
+# Power curve velocities in m/s
+V: [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 16]
+# Generated power from the power curves in MW
+POW: [0, 0.004, 0.0149, 0.0293, 0.0563, 0.0772, 1.158, 1.45, 1.79, 2.22, 2.5, 2.5, 2.5, 0]

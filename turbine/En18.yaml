@@ -1,0 +1,19 @@
+# SPDX-FileCopyrightText: 2021 The Atlite Authors
+#
+# SPDX-License-Identifier: CC-BY-4.0
+
+# Turbine characteristic data
+name: Enercon E18 80 kW
+# The manufacturer of this turbine
+manufacturer: Enercon
+# Link to the original datasheet of the turbine
+source: https://en.wind-turbine-models.com/turbines/353-enercon-e-18
+
+# Hub height in meters
+HUB_HEIGHT: 28.5
+# Power curve, specified as lists of velocities and powers, including
+# cut-in and cut-out speeds
+# Power curve velocities in m/s
+V: [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 25, 25]
+# Generated power from the power curves in MW
+POW: [0, 0.0037, 0.0081, 0.0144, 0.0235, 0.03409, 0.0453, 0.0566, 0.0674, 0.0768, 0.08, 0.08, 0.08, 0.08, 0]
