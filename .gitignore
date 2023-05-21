@@ -1,0 +1,2 @@
+# ignore large .nc files
+*.nc
